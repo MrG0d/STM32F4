@@ -1,0 +1,6 @@
+STM_GIT/
+cmsis_lib/
+cmsis_boot/
+cmsis/
+STM_GIT.*
+syscalls/
