@@ -403,9 +403,9 @@ void v_configTimerPWM(TIM_TypeDef *timer, uint8_t number){
 		/* PWM1 Mode configuration: Channel4 */
 		TIM_OC4Init(timer, &TIM_OCInitStructure);
 		TIM_OC4PreloadConfig(timer, TIM_OCPreload_Enable);
-		TIM_ARRPreloadConfig(timer, ENABLE);
 	}
 //	/* TIM enable counter */
+	TIM_ARRPreloadConfig(timer, ENABLE);
 	TIM_Cmd(timer, ENABLE);
 }
 

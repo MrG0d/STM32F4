@@ -17,14 +17,17 @@ int main(void)
 	v_init();
 
 	/*
-	 * Если нажата синяя (custom) кнопка, то увеличивается ШИМ (D13) на 2 ед.
-	 * и загается индикатор на D14.
-	 * Информация о уровне ШИМ передается по USART2
 	 *
 	 *
 	 * If the blue (custom) button is pressed, the PWM (D13) is increased by 2 units
 	 * and the indicator on D14 lights up.
 	 * PWM level information is transmitted via USART2
+	 *
+	 * Если нажата синяя (custom) кнопка, то увеличивается ШИМ (D13) на 2 ед.
+	 * и загается индикатор на D14.
+	 * Информация о уровне ШИМ передается по USART2
+	 *
+	 *
 	 *
 	 */
 
